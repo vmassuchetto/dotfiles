@@ -80,7 +80,7 @@ fi
 # When a command takes too much to finish, you can be notified by doing:
 # $ execute_long_command_here; alert
 alias alert_helper='history | tail -n1 | sed -e "s/^\s*[0-9]\+\s*//" -e "s/;\s*alert$//"'
-alias alert='notify-send -i ~/.icons/elementary/apps/64/gnome-terminal.svg "$(alert_helper)"'
+alias alert='notify-send "$(alert_helper)"'
 
 # Bash completion
 [ -f /etc/bash_completion ] && source /etc/bash_completion
