@@ -32,8 +32,7 @@ export HISTCONTROL=ignoredups
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 
 # Prefer Brazilian Portuguese and use UTF-8
-export LANG="pt_BR"
-export LC_ALL="pt_BR.UTF-8"
+export LANG="pt_BR.UTF-8"
 
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
