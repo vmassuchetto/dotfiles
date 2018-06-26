@@ -71,9 +71,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias less='less -R'
 fi
 
-# Short for ack-grep
-[ -x /usr/bin/ack-grep ] && alias ack='ack-grep'
-
 # libnotify alert
 # When a command takes too much to finish, you can be notified by doing:
 # $ execute_long_command_here; alert
